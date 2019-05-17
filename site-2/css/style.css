@@ -1,0 +1,90 @@
+.box {
+    /* Style for "Прямоуголь" */
+width: 1010px;
+height: 503px;
+border: 1px solid #d7d7d7;
+background-color: #ffffff;
+position: relative;
+margin-left: auto;
+margin-right: auto;
+}
+
+img {
+
+    position: absolute;
+ top: 64px;
+ left: 48px;
+}
+
+p {
+    
+    width: 178px;
+    height: 22px;
+    color: #2f2f2f;
+    font-family: "Arial";
+    font-size: 23px;
+    font-weight: 400;
+    position: absolute;
+    top: 94px;
+    left: 523px;
+}
+.text {
+    
+width: 393px;
+height: 50px;
+color: #2f2f2f;
+font-family: "Arial";
+font-size: 15px;
+font-weight: 400;
+position: absolute;
+top: 146px;
+left: 524px;
+}
+
+.text-2 {
+    width: 35px;
+height: 14px;
+color: #2f2f2f;
+font-family: "Arial";
+font-size: 15px;
+font-weight: 400;
+position: absolute;
+top: 251px;
+left: 524px;
+}
+
+.text-3 {
+width: 115px;
+height: 28px;
+color: #2f2f2f;
+font-family: "Arial";
+font-size: 30px;
+font-weight: 400;
+position: absolute;
+top: 288px;
+left: 526px;
+}
+
+button {
+    width: 252px;
+height: 50px;
+background-color: #ec754a;
+position: absolute;
+top: 372px;
+left: 526px;
+border: 0px;
+
+}
+
+.text-4 {
+width: 185px;
+height: 18px;
+color: #ffffff;
+font-family: "Arial";
+font-size: 19px;
+font-weight: 400;
+position: absolute;
+left: 565px;
+top: 388px;
+}
+
