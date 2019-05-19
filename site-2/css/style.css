@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+
+    }
+    
+    body {
+        background-color: #ffffff;
+font-family: "Arial MT";
+
+ }
+
+ .box {
+
+    width: 1010px;
+    height: 505px;
+    border: 1px solid #d7d7d7;
+    background-color: white;
+    margin:auto;
+ }
+
+    .image {
+
+        vertical-align: middle;
+        display: inline-block;
+        margin-top: 64px;
+        margin-left: 48px;
+    }
+
+    .box-2  {
+    
+
+        vertical-align: middle;
+        height: 328px;
+        width: 394px;
+         display: inline-block;
+         background-color: white;
+         margin-top: 94px;
+         margin-left: 93px;
+         
+    }
+
+    h3 { 
+        
+        display: inline-block;
+         vertical-align: middle;
+        top: 94px;
+       left: 309px;
+    
+    } 
+    
+
+    .cost {
+/* 
+    font-family: Arial; */
+    display: inline-block;
+    top: 251px;
+    left: 524px;
+    vertical-align: middle;
+ }
+   
+ 
+    p {
+      
+    display: inline-block;
+    top: 146px;
+    left: 524px;
+     vertical-align: middle;
+ }
+
+ .price {
+font-family: Arial;
+display: inline-block;
+top: 288px;
+left: 526px;
+vertical-align: middle;
+
+ }
+
+ button {
+display: inline-block;
+width: 252px;
+height: 50px;
+background-color: #ec744e;
+border: 0px;
+top: 372px;
+left: 526px;
+
+ }
+
+ .basket {
+display: inline-block;
+top: 388px;
+left: 565px;
+width: 174px;
+height: 18px;
+width: 174px;height: 18px;
+color: #ffffff;
+font-family: "Arial MT";
+font-size: 19px;
+font-weight: 400;
+margin: 0;
+ }
