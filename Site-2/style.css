@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+
+
+}
+
+body {
+font-family: sans-serif;
+background-color: #f6f6f6;
+}
+
+
+.box {
+background-color:#ffffff;
+width: 1010px;
+height: 503px;
+border: 1px solid #d7d7d7;
+margin: auto;
+}
+
+.image {
+display: inline-block;
+margin-left: 48px;
+margin-top: 64px;
+vertical-align: middle;
+}
+
+.content {
+width: 394px;
+display: inline-block;
+vertical-align: middle;
+margin-top: 45px;
+margin-left: 99px;
+}
+
+.title {
+margin-top: -2px;
+font-size: 23px;
+font-weight: 400;
+
+}
+
+.desc {
+margin-top: 30px;
+margin-bottom: 0;
+font-size: 15px;
+font-weight: 400;
+}
+
+.price {
+margin-top: 55px;
+margin-bottom: 0;
+font-size: 15px;
+font-weight: 400;
+}
+
+.cost {
+margin-top: 23px;
+margin-bottom: 0;
+font-size: 30px;
+font-weight: 400;
+}
+
+button {
+width: 252px;
+height: 50px;
+background-color: #ec744a;
+border: 0; 
+text-align: center;
+margin-top: 56px;
+color: #ffffff;
+font-size: 19px;
+font-weight: 400;
+
+}
