@@ -1,0 +1,38 @@
+body {
+    font-family: Tahoma;
+}
+
+.title {
+color: #333333;
+font-size: 24px;
+font-weight: 700;
+text-transform: uppercase;
+}
+
+.desc {
+color: #333333;
+font-size: 16px;
+font-weight: 700;
+text-align: center;
+margin-top: 20px;
+}
+
+
+
+.pic {
+
+width: 71px;
+height: 71px;
+
+} 
+   
+.title {
+
+text-align:  center;
+padding-top: 70px;
+padding-bottom: 82px;
+}
+
+.wrap {
+    text-align:  center;
+}
