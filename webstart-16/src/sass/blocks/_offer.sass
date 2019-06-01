@@ -1,0 +1,108 @@
+.offer
+  background: url("../img/offer/offer-bg.png")  
+  background-position: center right
+  background-size: contain
+  position: relative
+  &:before
+    content: ""
+    width: 50%
+    height: 100%
+    position: absolute 
+    top: 0
+    left: 0
+    background-color: #fff
+  &-block 
+    width: 50%
+    padding-right: 90px
+    position: relative
+  &__title 
+    max-width: 360px  
+    line-height: 35px
+    margin-bottom: 26px
+    +bold
+  &__phone
+    text-decoration: none 
+    color: $text-color
+    +bold 
+  &__subtitle 
+    max-width: 250px
+    margin-bottom: 30px
+    +reg
+  &__input 
+    margin-bottom: 30px
+    width: 240px
+    &:first-child
+      margin-right: 10px  
+  &__button
+    width: 100%        
+    min-height: 70px
+    +bold
+
+.information
+  &__call 
+    line-height: 20px 
+    // width: 224px 
+    display: inline-block
+    align-items: center
+    margin-top: 33px
+    +reg
+  &__main
+    // margin-left: 50px
+    line-height: 20px 
+    text-decoration: none    
+    +reg 
+
+@media (max-width: 1200px)
+  .offer
+    background-size: cover  
+    &__input
+    width: 100%
+    margin-bottom: 10px
+    &__button
+      font-size: 13px 
+
+@media (max-width: 768px)
+  .offer
+    padding-top:  20px 
+    background: #fff
+    &-block
+     width: 100%  
+     padding-right: 0
+    &__title 
+      font-size: 18px
+      line-height: 1.5
+    &__input
+      margin-top: 8px
+      width: 295px
+      height: 65px
+      border-radius: 10px
+  .button
+    padding: 19px 62px   
+    +bold
+
+.information
+  margin-left: 24px
+   
+    
+  &__call 
+    line-height: 20px 
+    display: block 
+    line-height: 1.5
+    +reg
+       
+   
+  &__main
+    margin-top: 5px 
+    margin-left: 0
+    line-height: 20px    
+    text-decoration: none    
+    +reg   
+    line-height: 1.5
+    
+    
+
+      
+
+   
+
+           
