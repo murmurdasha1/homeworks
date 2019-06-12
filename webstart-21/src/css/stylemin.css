@@ -679,22 +679,24 @@ img {
 .brif__form {
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
-  padding-left: 200px;
+  padding-left: 215px;
   text-align: center;
 }
 
 .brif__input {
   width: 100%;
   max-width: 370px;
-  margin-bottom: 15px;
+  margin-bottom: 8px;
 }
 
 .brif__button {
   height: 70px;
   width: 100%;
   max-with: 370px;
-  margin-top: 15px;
-  margin-bottom: 30px;
+  margin-top: 30px;
+  font-size: 16px;
+  font-family: 'Museo Sans Bold', sans-serif;
+  font-weight: 700;
 }
 
 .interview {
@@ -702,15 +704,17 @@ img {
 }
 
 .interview__title {
-  margin-bottom: 50px;
+  margin-bottom: 46px;
   font-size: 22px;
   font-family: 'Museo Sans Bold', sans-serif;
   font-weight: 700;
+  line-height: 31px;
+  max-width: 515px;
 }
 
 .interview__subtitle {
   display: block;
-  margin-bottom: 90px;
+  padding-bottom: 79px;
   font-size: 16px;
 }
 
@@ -745,23 +749,29 @@ img {
 
 .interview-list__text {
   max-width: 400px;
+  font-size: 18px;
 }
 
 .form__title {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   font-size: 22px;
   font-family: 'Museo Sans Bold', sans-serif;
   font-weight: 700;
+  line-height: 33px;
 }
 
 .form__subtitle {
   display: block;
-  margin-bottom: 90px;
+  margin-bottom: 49px;
   font-size: 16px;
 }
 
 .form__description {
   display: block;
+  font-family: 'Museo Sans Light', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  margin-top: 30px;
 }
 
 @media (max-width: 1200px) {
@@ -778,9 +788,6 @@ img {
     font-size: 20px;
     margin-bottom: 15px;
   }
-  .interview__subtitle {
-    margin-bottom: 30px;
-  }
   .interview-list__text {
     font-size: 14px;
     max-width: 300px;
@@ -792,9 +799,6 @@ img {
     font-size: 20px;
     margin-bottom: 15px;
   }
-  .form__subtitle {
-    margin-bottom: 30px;
-  }
 }
 
 @media (max-width: 768px) {
@@ -804,8 +808,61 @@ img {
     background-size: 100% 50%, cover;
     background-repeat: repeat-x, no-repeat;
   }
+  .brif-block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .brif__form {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    padding-left: 0px;
+    text-align: center;
+  }
+  .brif__button {
+    font-size: 14px;
+    font-family: 'Museo Sans Light', sans-serif;
+    font-weight: 300;
+    margin-top: 8px;
+  }
+  .form__title {
+    max-width: 300px;
+    line-height: 25.35px;
+    font-size: 18px;
+    font-family: 'Museo Sans Bold', sans-serif;
+    font-weight: 700;
+    margin-top: 30px;
+  }
+  .form__subtitle {
+    font-size: 14px;
+    font-family: 'Museo Sans Light', sans-serif;
+    font-weight: 300;
+    margin-bottom: 40px;
+  }
+  .form__description {
+    font-size: 15px;
+    max-width: 150px;
+    font-family: 'Museo Sans Light', sans-serif;
+    font-weight: 300;
+    margin-left: 60px;
+    line-height: 1.5;
+  }
+  .interview-list {
+    padding-bottom: 20px;
+  }
   .interview-list__counter {
     min-width: 35px;
+  }
+  .interview__title {
+    line-height: 1.2;
+    font-size: 18px;
+    margin-top: 0;
+  }
+  .interview__subtitle {
+    max-width: 172px;
+    font-size: 14px;
+    padding-bottom: 20px;
   }
 }
 /*# sourceMappingURL=stylemin.css.map */

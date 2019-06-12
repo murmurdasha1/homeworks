@@ -9,27 +9,32 @@
     flex-basis: 50% 
   &__form       
     flex-basis: 50% 
-    padding-left: 200px
+    padding-left: 215px
     text-align: center
+    
   &__input 
     width: 100%
     max-width: 370px
-    margin-bottom: 15px
+    margin-bottom: 8px
   &__button
     height: 70px
     width: 100%
     max-with: 370px  
-    margin-top: 15px
-    margin-bottom: 30px      
+    margin-top: 30px
+    // margin-bottom: 30px  
+    font-size: 16px
+    +bold      
 .interview 
   padding-right: 70px  
   &__title
-    margin-bottom: 50px  
+    margin-bottom: 46px  
     font-size: 22px
     +bold   
+    line-height: 31px
+    max-width: 515px
   &__subtitle
     display: block
-    margin-bottom: 90px  
+    padding-bottom: 79px  
     font-size: 16px         
   &-list 
    list-style: none 
@@ -50,18 +55,25 @@
     border-radius: 50%
     font-size: 14px
    &__text 
-    max-width: 400px      
+    max-width: 400px 
+    font-size: 18px     
 .form 
   &__title
-    margin-bottom: 50px
+    margin-bottom: 40px
     font-size: 22px
     +bold 
+    line-height: 33px
+    
   &__subtitle
     display: block
-    margin-bottom: 90px  
-    font-size: 16px     
+    margin-bottom: 49px  
+    font-size: 16px    
+   
   &__description
-    display: block    
+    display: block  
+    +reg
+    font-size: 15px
+    margin-top: 30px  
 @media (max-width: 1200px)
   .brif 
     background-image: url('../img/brif/brif-color-bg.png'), url('../img/brif/brif-bg.jpg')
@@ -76,7 +88,7 @@
       font-size: 20px
       margin-bottom: 15px
     &__subtitle
-      margin-bottom: 30px
+   
     &-list 
       &__text
         font-size: 14px
@@ -88,16 +100,55 @@
       font-size: 20px
       margin-bottom: 15px
     &__subtitle
-      margin-bottom: 30px      
+      // margin-bottom: 30px      
 @media (max-width: 768px)     
   .brif
     background-image: url('../img/brif/brif-color-bg.png'), url('../img/brif/brif-bg.jpg')
     background-position: top center, center bottom
     background-size: 100% 50%, cover
     background-repeat: repeat-x, no-repeat
-    //  &-block       
-    //  &__form
-       
+    &-block  
+      flex-direction: column     
+    &__form       
+      flex-basis: 50% 
+      padding-left: 0px
+      text-align: center
+    &__button
+      font-size: 14px
+      +reg 
+      margin-top: 8px  
+  .form 
+    &__title   
+      max-width: 300px
+      line-height: 25.35px
+      font-size: 18px
+      +bold 
+      margin-top: 30px
+    &__subtitle
+      font-size: 14px
+      +reg
+      margin-bottom: 40px
+    // &__button
+    //   font-size: 14px
+    //   +reg   
+    &__description
+      font-size: 15px
+      max-width: 150px
+      +reg    
+      margin-left: 60px
+      line-height: 1.5
   .interview 
+    &-list 
+      padding-bottom: 20px
+      &__text
+       
     &-list__counter
       min-width: 35px 
+    &__title
+      line-height: 1.2
+      font-size: 18px  
+      margin-top: 0
+    &__subtitle
+      max-width: 172px
+      font-size: 14px
+      padding-bottom: 20px
