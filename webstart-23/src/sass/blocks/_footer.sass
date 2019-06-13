@@ -12,8 +12,11 @@
   &__title
     +bold 
     font-size: 22px
-    line-height: 1.4
-    margin-bottom: 100px
+    // line-height: 1.4
+    line-height: 33px
+    margin-bottom: 90px
+    color: $text-color
+    max-width: 293px
   &__phone
     text-decoration: none
     font-size: 16px
@@ -42,13 +45,34 @@
     &__item
       display: flex
       align-items: flex-start    
-      margin-bottom: 39px      
+      margin-bottom: 29px      
     &__text 
       line-height: 1.6
       font-size: 16px
+@media (max-width: 1200px)
+  .contacts 
+      &__title
+       +bold   
+       max-width: 240px
+       font-size: 18px
+    
 
 @media (max-width: 768px)
-    .map 
-      width: 100%
-      top: 100%     
-    
+  .map 
+    width: 100%
+    top: 100%     
+  .contacts  
+    &-block  
+    padding-top: 30px
+    padding-left: 0
+    flex-basis: 100%
+    &-list 
+      &__text
+        font-size: 16px
+    &__title
+      +bold   
+      max-width: 240px
+      font-size: 18px
+      line-height: 1.2
+      margin-bottom: 39px
+  
