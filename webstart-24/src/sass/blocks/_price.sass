@@ -13,7 +13,6 @@
   transition: 0.2s 
   &:hover
     box-shadow: 0 20px 25px rgba(0, 0, 0, 0.1) 
-  
   &__text
     padding: 40px
   &__title
@@ -65,12 +64,15 @@
   .card  
     &:hover
       box-shadow: none 
-    &__image:before
-        opacity: 0 
+    &__image
+      &:before 
+        background-image: none
     &__link
       &:hover
         &:after
-          height: 3px     
+          height: 3px   
+       
+ 
      
   
 

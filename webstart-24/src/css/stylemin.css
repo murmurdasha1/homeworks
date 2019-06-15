@@ -1201,7 +1201,7 @@ img {
             box-shadow: none;
   }
   .card__image:before {
-    opacity: 0;
+    background-image: none;
   }
   .card__link:hover:after {
     height: 3px;
