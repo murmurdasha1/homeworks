@@ -11,11 +11,10 @@
   text-align: center  
   border: 1px solid $border-card
   transition: 0.2s 
-
-  &:hover
-    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.1) 
-    .card__image:before
-      opacity: 1   
+  // &:hover
+  //   box-shadow: 0 20px 25px rgba(0, 0, 0, 0.1) 
+  //   .card__image:before
+  //     opacity: 1   
   &__text
     padding: 40px
   &__title
@@ -57,6 +56,14 @@
    display: flex       
    justify-content: space-between
    flex-wrap: wrap
+@media (max-width: 991px)   
+  .card  
+    &:hover
+      box-shadow: 0 20px 25px rgba(0, 0, 0, 0.1) 
+      .card__image:before
+        opacity: 1 
+   
+
 @media (max-width: 768px)   
   .price
     &__title
@@ -68,7 +75,6 @@
     &__subtitle
       padding-bottom: 10px 
       font-size: 16px
-  .card  
     &__text
       font-size: 14px
       +reg

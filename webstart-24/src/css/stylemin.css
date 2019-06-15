@@ -392,7 +392,7 @@ img {
 }
 
 .button, .button-1 {
-  border-radius: 10px;
+  border-radius: 5px;
   background-color: #ffd200;
   border: none;
   padding: 18px 30px;
@@ -1114,15 +1114,6 @@ img {
   transition: 0.2s;
 }
 
-.card:hover {
-  -webkit-box-shadow: 0 20px 25px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 20px 25px rgba(0, 0, 0, 0.1);
-}
-
-.card:hover .card__image:before {
-  opacity: 1;
-}
-
 .card__text {
   padding: 40px;
 }
@@ -1188,6 +1179,16 @@ img {
       flex-wrap: wrap;
 }
 
+@media (max-width: 991px) {
+  .card:hover {
+    -webkit-box-shadow: 0 20px 25px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 20px 25px rgba(0, 0, 0, 0.1);
+  }
+  .card:hover .card__image:before {
+    opacity: 1;
+  }
+}
+
 @media (max-width: 768px) {
   .price__title {
     margin-top: 20px;
@@ -1201,7 +1202,7 @@ img {
     padding-bottom: 10px;
     font-size: 16px;
   }
-  .card__text {
+  .price__text {
     font-size: 14px;
     font-family: 'Museo Sans Light', sans-serif;
     font-weight: 300;
@@ -1385,15 +1386,13 @@ img {
     font-size: 18px;
     font-family: 'Museo Sans Bold', sans-serif;
     font-weight: 700;
-    margin-top: 30px;
+    margin-top: 100px;
   }
   .form__subtitle {
     font-size: 14px;
     font-family: 'Museo Sans Light', sans-serif;
     font-weight: 300;
     margin-bottom: 40px;
-  }
-  .form__description {
     font-size: 15px;
     max-width: 150px;
     font-family: 'Museo Sans Light', sans-serif;
