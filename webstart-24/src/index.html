@@ -97,9 +97,9 @@
                 <div class="offer-block">
                     <h2 class="section-title offer__title">Мы бесплатно разработаем дизайн-проект Вашего жилья и реализуем его!</h2>
                     <span class="section-subtitle offer__subtitle">Оставьте заявку на разработку бесплатного дизайн-проекта!</span>
-                    <form action="#" class="form offer__form">
-                        <input type="text" class="input offer__input" placeholder="Ваше имя">
-                        <input type="tel" class="input offer__input" placeholder="Ваш телефон">
+                    <form action="#" id="offer-form" class="form offer__form">
+                        <input type="text" name="username" class="input offer__input" placeholder="Ваше имя">
+                        <input type="tel" name="phone" class="input offer__input" placeholder="Ваш телефон">
                         <button class="button offer__button">Получить бесплатный дизайн проект</button>
                     </form>
 
@@ -237,7 +237,7 @@
     <footer class="footer">
         <div class="map" id="map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2253.4560482987267!2d37.19910331609235!3d55.61147998051582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b556d92c52e921%3A0x7069f1a444f51ab2!2z0YPQuy4g0JvQtdC90LjQvdCwLCAxMCwg0KLQvtC70YHRgtC-0L_QsNC70YzRhtC10LLQviwg0JzQvtGB0LrQstCwLCAxNDMzNTA!5e0!3m2!1sru!2sru!4v1560452922157!5m2!1sru!2sru"
-                allowfullscreen></iframe>
+                style="width:100%; height:640px; border:0;"></iframe>
         </div>
         <div class="container">
             <div class="contacts-block">
@@ -289,7 +289,7 @@
     <script>
         new WOW().init();
         $(document).ready(function() {
-            $('#brif-form').validate({
+            $('#brif-form, #offer-form').validate({
                 rules: {
                     username: {
                         required: true,
@@ -307,7 +307,7 @@
                 messages: {
                     username: {
                         required: "Укажите имя",
-                        minlength: jQuery.validator.format("Осталось символов {0} !")
+                        minlength: jQuery.validator.format("Осталось символов {0}!")
                     },
                     phone: {
                         required: "здесь должен быть ваш телефон",
