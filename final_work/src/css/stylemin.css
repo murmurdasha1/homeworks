@@ -1,0 +1,171 @@
+.navbar {
+  background-image: url("../img/cover.png");
+  background-position: right center;
+  background-size: 40%, contain;
+  background-repeat: repeat-y, no-repeat;
+  padding: 8px 0;
+}
+
+.navbar-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar__figure {
+  margin-right: 20px;
+}
+
+.navbar__text-1 {
+  margin-right: 20px;
+  font-family: Proxima Nova Light;
+  font-size: 16px;
+}
+
+.navbar__text-1:hover {
+  color: #fac400;
+  cursor: pointer;
+}
+
+.navbar__text-1:after {
+  width: 100%;
+  height: 3px;
+  background-color: #ffc800;
+}
+
+.navbar__logo {
+  padding-left: 250px;
+}
+
+.navbar__logo__text {
+  font-size: 15px;
+  font-family: 'Proxima Nova Extra Bold Italic';
+}
+
+.contacts {
+  margin-right: 265px;
+}
+
+.contacts__phone {
+  text-decoration: none;
+  font-size: 18px;
+  font-family: Proxima Nova Light;
+  color: #000000;
+}
+
+.contacts__icon {
+  text-align: bottom;
+}
+
+.contacts__button {
+  background-color: #ffc800;
+  font-size: 14px;
+  height: 30px;
+  width: 140px;
+  border: 0;
+  margin-left: 40px;
+  font-family: 'ProximaNova-Bold';
+}
+
+.contacts__button:hover {
+  background-color: #f0c500;
+  cursor: pointer;
+}
+
+.contacts__button:focus {
+  outline: none !important;
+}
+
+.hero {
+  background-image: url("../img/cover-man-2.png");
+  background-position: center;
+  background-size: 100%, contain;
+  background-repeat: repeat-y, no-repeat;
+  padding-left: 250px;
+  padding-top: 150px;
+  padding-bottom: 30px;
+}
+
+.hero-text__title {
+  margin-bottom: 10px;
+  font-size: 35px;
+  font-family: Proxima Nova Light;
+  color: #ffc800;
+}
+
+.hero-text__subtitle {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-family: Proxima Nova Light;
+  color: #fffffe;
+}
+
+.hero-text__subtitle-2 {
+  max-width: 1106px;
+  font-size: 20px;
+  font-family: Proxima Nova Light;
+  color: #fffffe;
+}
+
+.button {
+  margin-top: 50px;
+  height: 44px;
+  width: 185px;
+  text-decoration: none;
+  background-color: #ffc800;
+  border: 0;
+  font-size: 18px;
+  font-family: 'ProximaNova-Bold';
+}
+
+.button:hover {
+  background-color: #e6bd00;
+  cursor: pointer;
+}
+
+.button:focus {
+  outline: none !important;
+}
+
+.items {
+  padding-top: 150px;
+  padding-left: 500px;
+}
+
+.items__square {
+  margin-left: 8px;
+  color: #fac400;
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Extra Bold Italic';
+  src: url("../fonts/Proxima-Nova/ProximaNova-ExtrabldIt.eot");
+  src: url("../fonts/Proxima-Nova/ProximaNova-ExtrabldIt.eot?#iefix") format("embedded-opentype"), url("../fonts/Proxima-Nova/ProximaNova-ExtrabldIt.woff") format("woff"), url("../fonts/Proxima-Nova/ProximaNova-ExtrabldIt.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Light';
+  src: url("../fonts/Proxima-Nova/ProximaNova-Light.eot");
+  src: url("../fonts/Proxima-Nova/ProximaNova-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Proxima-Nova/ProximaNova-Light.woff") format("woff"), url("../fonts/Proxima-Nova/ProximaNova-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProximaNova-Bold';
+  src: url("../fonts/Proxima-Nova/ProximaNova-Bold.ttf");
+  src: url("../fonts/Proxima-Nova/ProximaNova-Bold.ttf?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+/*# sourceMappingURL=stylemin.css.map */
